@@ -3,7 +3,7 @@ This is a pytorch distributed training implementation of Improved Deep Embedded 
 
 It is required to put the correct hostname or IP-address and port number in DIDEC.py before running the program with necessary command line arguments. An example of command line run of the program is -
 
-python3 DIDEC.py --rank 0 --world 5 --datafile mnist.pkl.gz --ae_structure 10 5 3 10 3 5 10 --kernel_stride 31 31 31 31 31 31 31  --ae_activation relu --clusters 10 --pretrain_epochs 50 --dectrain_epochs 100 --cnn True --gpu True --dist True
+```python3 DIDEC.py --rank 0 --world 5 --datafile mnist.pkl.gz --ae_structure 10 5 3 10 3 5 10 --kernel_stride 31 31 31 31 31 31 31  --ae_activation relu --clusters 10 --pretrain_epochs 50 --dectrain_epochs 100 --cnn True --gpu True --dist True```
 
 DIDEC.py        --- file containing main function<br />
 rank            --- rank number of the machine<br />
